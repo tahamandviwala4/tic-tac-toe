@@ -1,0 +1,30 @@
+/* ||Hero */
+
+.hero .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.play-button {
+  font-size: 10rem;
+  color: var(--block-color);
+  border-radius: var(--circle);
+  -webkit-border-radius: var(--circle);
+  -moz-border-radius: var(--circle);
+  -ms-border-radius: var(--circle);
+  -o-border-radius: var(--circle);
+  transition: var(--medium-transition);
+  -webkit-transition: var(--medium-transition);
+  -moz-transition: var(--medium-transition);
+  -ms-transition: var(--medium-transition);
+  -o-transition: var(--medium-transition);
+}
+.play-button:hover {
+  background-color: var(--block-color);
+  color: var(--background-color);
+}
+.play-button ion-icon {
+  margin-left: 5px;
+}

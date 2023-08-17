@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="15.875001mm"
+   height="15.875mm"
+   viewBox="0 0 15.875001 15.875"
+   version="1.1"
+   id="svg5"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-0.46966715,-38.498065)">
+    <g
+       id="g1573"
+       transform="matrix(4.0733921,0,0,4.0733925,45.974552,26.771737)"
+       style="fill:#020202;fill-opacity:1;stroke:none;stroke-opacity:1">
+      <rect
+         style="opacity:1;fill:#020202;fill-opacity:1;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1567"
+         width="0.52916527"
+         height="5.2916656"
+         x="-3.3724904"
+         y="7.2890272"
+         ry="0.26458332"
+         transform="rotate(45)"
+         rx="0.26458263" />
+      <g
+         id="g1571"
+         style="fill:#020202;fill-opacity:1;stroke:none;stroke-opacity:1">
+        <rect
+           style="opacity:1;fill:#020202;fill-opacity:1;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+           id="rect1569"
+           width="0.52916527"
+           height="5.2916656"
+           x="9.6702766"
+           y="-5.7537403"
+           ry="0.26458332"
+           transform="matrix(-0.70710678,0.70710678,0.70710678,0.70710678,0,0)"
+           rx="0.26458263" />
+      </g>
+    </g>
+  </g>
+</svg>
