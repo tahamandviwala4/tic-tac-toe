@@ -4,38 +4,64 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="required.css" />
+    <link rel="stylesheet" href="play.css" />
+    <link rel="stylesheet" href="./Components/tile.css" />
     <title>Tic Tac Toe | Play</title>
   </head>
-  <header class="header">
-    <div class="container menu">
-      <button class="hamburger" id="hamburger">
-        <ion-icon name="menu"></ion-icon>
-      </button>
-      <nav class="nav" id="nav">
-        <ul class="nav-list">
-          <li class="nav-item">
-            <a href="./index.html" class="nav-link">
-              <ion-icon name="home"></ion-icon>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">
-              <ion-icon name="play"></ion-icon>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">
-              <ion-icon name="information-circle"></ion-icon>
-            </a>
-          </li>
-        </ul>
-      </nav>
-    </div>
-  </header>
   <body>
+    <header class="header">
+      <div class="container menu">
+        <button class="hamburger" id="hamburger">
+          <ion-icon name="menu"></ion-icon>
+        </button>
+        <nav class="nav" id="nav">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="./index.html" class="nav-link">
+                <ion-icon name="home"></ion-icon>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">
+                <ion-icon name="play"></ion-icon>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">
+                <ion-icon name="information-circle"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="scoreboard container">
+        <div class="player1">
+          <p>Player-1 :</p>
+          <p id="p1s">0</p>
+        </div>
+        <div class="player2">
+          <p>Player-2 :</p>
+          <p id="p2s">0</p>
+        </div>
+      </div>
+      <div class="container">
+        <div class="gameboard">
+          <button class="tile" id="btn1" onclick="playerSwitch(0)"></button>
+          <button class="tile" id="btn2" onclick="playerSwitch(1)"></button>
+          <button class="tile" id="btn3" onclick="playerSwitch(2)"></button>
+          <button class="tile" id="btn4" onclick="playerSwitch(3)"></button>
+          <button class="tile" id="btn5" onclick="playerSwitch(4)"></button>
+          <button class="tile" id="btn6" onclick="playerSwitch(5)"></button>
+          <button class="tile" id="btn7" onclick="playerSwitch(6)"></button>
+          <button class="tile" id="btn8" onclick="playerSwitch(7)"></button>
+          <button class="tile" id="btn9" onclick="playerSwitch(8)"></button>
+        </div>
+      </div>
+    </main>
     <!-- Custom Script -->
     <script src="script.js"></script>
-
     <!-- ion-icons -->
     <script
       type="module"
